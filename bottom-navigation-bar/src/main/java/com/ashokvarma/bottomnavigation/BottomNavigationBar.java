@@ -23,7 +23,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 import com.ashokvarma.bottomnavigation.behaviour.BottomNavBarFabBehaviour;
-import com.ashokvarma.bottomnavigation.behaviour.BottomVerticalScrollBehavior;
+import com.ashokvarma.bottomnavigation.behaviour.BottomViewBehavior;
 import com.ashokvarma.bottomnavigation.utils.Utils;
 
 import java.lang.annotation.Retention;
@@ -40,7 +40,7 @@ import java.util.ArrayList;
  * @see <a href="https://www.google.com/design/spec/components/bottom-navigation.html">Google Bottom Navigation Component</a>
  * @since 19 Mar 2016
  */
-@CoordinatorLayout.DefaultBehavior(BottomVerticalScrollBehavior.class)
+@CoordinatorLayout.DefaultBehavior(BottomViewBehavior.class)
 public class BottomNavigationBar extends FrameLayout {
 
     public static final int MODE_DEFAULT = 0;
